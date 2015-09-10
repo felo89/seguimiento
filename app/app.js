@@ -2,13 +2,13 @@
 
 'use strict';
   //MODULES DEPENDENCIES;
-  angular.module('app.controllers',[]);
-  angular.module('app.directives',[]);
-  angular.module('app.services',[]);
-  angular.module('app.filters',[]);
+  angular.module('seguimiento.controllers',[]);
+  angular.module('seguimiento.directives',[]);
+  angular.module('seguimiento.services',[]);
+  angular.module('seguimiento.filters',[]);
 
   angular
-    .module('seguimiento', ['ui.router','app.controllers','app.services','app.directives','app.filters'])
+    .module('seguimiento', ['ui.router','seguimiento.controllers','seguimiento.services','seguimiento.directives','seguimiento.filters'])
     .config(config);
 
   config.$inject = ['$urlRouterProvider'];

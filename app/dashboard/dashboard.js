@@ -1,6 +1,6 @@
 (function () {
 
-'use strict';
+  'use strict';
 
   angular
     .module('seguimiento')
@@ -15,7 +15,6 @@
         views: {
           'page':{templateUrl: 'dashboard/dashboard.html', controller: 'DashboardCtrl', controllerAs: 'dashboard'}
         }
-      }
-    );
+      });
   };
 })();
