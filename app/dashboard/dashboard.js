@@ -3,7 +3,7 @@
   'use strict';
 
   angular
-    .module('seguimiento')
+    .module('seguimiento.dashboard')
     .config(configDashboard);
 
   configDashboard.$inject = ['$stateProvider'];

@@ -2,7 +2,7 @@
 'use strict';
 
   angular
-    .module('seguimiento.controllers')
+    .module('seguimiento.dashboard')
     .controller('DashboardCtrl', DashboardCtrl);
 
   function DashboardCtrl(){
