@@ -7,7 +7,6 @@
 
   function DashboardCtrl(){
     var vm = this;
-    console.log(vm);
-    vm.titulo = "Hola mundo";
+    vm.title = "Dashboard";
   };
 })();
