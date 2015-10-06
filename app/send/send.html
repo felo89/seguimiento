@@ -2,35 +2,66 @@
   <md-content class="md-padding">
     <md-card>
       <md-card-content>
-        <h2 class="md-title">Paracosm</h2>
-        <p>
-          The titles of Washed Out's breakthrough song and the first single from Paracosm share the
-          two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
-        </p>
-      </md-card-content>
-      <div class="md-actions" layout="row" layout-align="end center">
-        <md-button>Action 1</md-button>
-        <md-button>Action 2</md-button>
-      </div>
-    </md-card>
-    <br/>
-    <md-card>
-      <md-card-content>
-        <h2 class="md-title">Paracosm</h2>
-        <p>
-          The titles of Washed Out's breakthrough song and the first single from Paracosm share the
-          two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
-        </p>
-      </md-card-content>
-    </md-card>
-    <br/>
-    <md-card>
-      <md-card-content>
-        <h2 class="md-title">Paracosm</h2>
-        <p>
-          The titles of Washed Out's breakthrough song and the first single from Paracosm share the
-          two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
-        </p>
+        <h2 class="md-title">Enviar Documento</h2>
+        <div layout="column" ng-cloak>
+          <br/>
+          <md-content layout-padding class="autoScroll">
+            <md-input-container class="md-icon-float" >
+              <!-- Use floating label instead of placeholder -->
+              <label>Nombre</label>
+              <ng-md-icon icon="person"></ng-md-icon>
+              <input ng-model="user.name" type="text" ng-required="true">
+            </md-input-container>
+            <md-input-container class="md-icon-float" >
+              <!-- Use floating label instead of placeholder -->
+              <label>Teléfono</label>
+              <ng-md-icon icon="phone"></ng-md-icon>
+              <input ng-model="user.phone" type="text" ng-required="true">
+            </md-input-container>
+            <md-input-container class="md-icon-float" >
+              <!-- Use floating label instead of placeholder -->
+              <label>Correo</label>
+              <ng-md-icon icon="email"></ng-md-icon>
+              <input ng-model="user.email" type="email" ng-required="true">
+            </md-input-container>
+            <md-input-container class="md-icon-float" >
+              <!-- Use floating label instead of placeholder -->
+              <label>Dirección</label>
+              <ng-md-icon icon="place"></ng-md-icon>
+              <input ng-model="user.address" type="text" ng-required="true">
+            </md-input-container>
+          </md-content>
+        </div>
+
+        <div layout="column" ng-cloak>
+          <br/>
+          <md-content layout-padding class="autoScroll">
+            <md-input-container class="md-icon-float" >
+              <!-- Use floating label instead of placeholder -->
+              <label>Nombre</label>
+              <ng-md-icon icon="person"></ng-md-icon>
+              <input ng-model="user.name" type="text" ng-required="true">
+            </md-input-container>
+            <md-input-container class="md-icon-float" >
+              <!-- Use floating label instead of placeholder -->
+              <label>Teléfono</label>
+              <ng-md-icon icon="phone"></ng-md-icon>
+              <input ng-model="user.phone" type="text" ng-required="true">
+            </md-input-container>
+            <md-input-container class="md-icon-float" >
+              <!-- Use floating label instead of placeholder -->
+              <label>Correo</label>
+              <ng-md-icon icon="email"></ng-md-icon>
+              <input ng-model="user.email" type="email" ng-required="true">
+            </md-input-container>
+            <md-input-container class="md-icon-float" >
+              <!-- Use floating label instead of placeholder -->
+              <label>Dirección</label>
+              <ng-md-icon icon="place"></ng-md-icon>
+              <input ng-model="user.address" type="text" ng-required="true">
+            </md-input-container>
+          </md-content>
+        </div>
       </md-card-content>
     </md-card>
   </md-content>

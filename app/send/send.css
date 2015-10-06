@@ -1,0 +1,12 @@
+md-card{
+  background-color: #f7f7f7;
+}
+
+.md-layout-column{
+  width: 50%;
+  float: left;
+}
+
+md-content{
+  background-color: inherit;
+}

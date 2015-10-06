@@ -1,12 +1,19 @@
-(function(){
-'use strict';
+(function () {
+  'use strict';
 
   angular
     .module('seguimiento.send')
     .controller('SendCtrl', SendCtrl);
 
-  function SendCtrl(){
+  SendCtrl.$inject = ['$scope'];
+
+  function SendCtrl($scope) {
     var vm = this;
-    console.log('send controller');
+    $scope.user = {
+      name: '',
+      email: '',
+      phone: '',
+      address: 'Talca, Chile'
+    };
   };
 })();
